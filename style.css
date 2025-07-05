@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    padding-top: 60px;
+    text-align: center;
+    background-color:  #ef8c8c ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.lol{
+    background: #ef8c8c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+#weather{
+    background-color: rgb(245, 168, 232);
+    max-width: 400px;
+    margin-bottom: 140px;
+    padding: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(212, 35, 171);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 8px 28px rgb(241, 38, 72);
+    text-align: center;
+
+}
+h2 , label ,p{
+    color: rgb(52, 9, 9);
+    margin: 10px 0px;
+}
+input{
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid rgb(167, 18, 18);
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+button{
+    background-color: #debff4;
+    color: black;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 10px , 0;
+    width: 100px;
+}
+button:hover{
+    background-color: #d865b0;
+}
+
+#temp p{
+    font-size: 60px;
+    margin-top: -30px;
+}
+#info{
+    font-size: 20px;
+}
+#icon{
+    width: 200px;
+    height: 200px;
+    display: none;
+    margin: 0 auto 10px;
+    margin-bottom: 0;
+}
+#forecast{
+    margin-top: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+  flex:  0 0 auto;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+  color: white;
+}
+.item img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+#heading{
+    color: #fff;
+    margin-top: 10px;
+}
