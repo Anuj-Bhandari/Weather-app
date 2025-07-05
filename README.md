@@ -1,0 +1,1 @@
+this is a project made using vanilla javascript with the help of Openweathermap api 
