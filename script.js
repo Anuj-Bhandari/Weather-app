@@ -6,7 +6,7 @@ function getweather() {
         return;
     }
 
-    const url = `http://localhost:3000/api/weather?city=${city}`;
+    const url = `https://weather-app-p1m5.onrender.com/api/weather?city=${city}`;
 
     fetch(url)
         .then(response => response.json())
